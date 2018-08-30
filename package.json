@@ -1,0 +1,22 @@
+{
+  "name": "gc-photography-site",
+  "version": "1.0.0",
+  "description": "A current progress of Greg's photography site with working forms",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rllongstaff/gc-photography-site.git"
+  },
+  "author": "Russell Longstaff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rllongstaff/gc-photography-site/issues"
+  },
+  "homepage": "https://github.com/rllongstaff/gc-photography-site#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

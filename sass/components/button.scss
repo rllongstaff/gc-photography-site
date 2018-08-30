@@ -1,0 +1,35 @@
+.button {
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 0.2rem; 
+    text-transform: uppercase; 
+
+    &--white {
+        background: $color-white;
+        border: 2px solid $color-black;
+        color: $color-black; 
+        font-size: 1.5rem;
+        margin-top: 3rem; 
+        padding: 2rem 3.5rem; 
+
+        &:hover {
+            background: $color-black;
+            color: $color-white; 
+            text-decoration: none; 
+        }
+    }
+
+    &--black {
+        background: $color-black; 
+        border: none;
+        color: $color-white;
+        font-size: 1.3rem; 
+        padding: 1.3rem 3.2rem;
+        
+        &:hover {
+            background: rgba($color-black, .6);
+            color: $color-white; 
+            text-decoration: none;
+        } 
+    }
+}

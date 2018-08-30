@@ -1,0 +1,262 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px  10px / 16px = 62.5%;
+}
+
+body {
+    box-sizing: border-box;    
+}
+
+.header {
+
+    &--banner {
+        height: 56vh; 
+
+        @media (max-width: 767.98px) {
+            height: 30vh;
+        }       
+    }
+
+    &--plain {
+        background: $color-black-header;
+        height: 15vh;
+    }
+
+    &--home {
+        background: $color-black-header center / cover no-repeat url("../img/banners/gcbrideandgroom.jpg");        
+    }
+
+    &--weddings {
+        background: $color-black-header center / cover no-repeat url("../img/banners/berkshire_wedding_photographer_GJ_Full.jpg");
+    }
+
+    &--choose-photographer {
+        background: $color-black-header center / cover no-repeat url("../img/banners/buckinghamhire-wedding-photography-ll-table.jpg");  
+    }
+
+    &--bucks-wedding-photography {
+        background: $color-black-header center / cover no-repeat url("../img/banners/berkshire_wedding_photographer_GJ_Full.jpg");
+    }
+}
+
+.logo-img {
+    width: 100%;
+}
+
+// navigation
+.navbar {
+    background: none !important; 
+}
+
+.navbar-brand {
+    width: 30%; 
+
+    @media (max-width: 767.98px) {
+        width: 50%;
+    }    
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: $color-white;
+    color: $color-white;
+    font-size: 1.65rem; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    flex-basis: 100% !important;
+    justify-content: flex-end; 
+    
+    @media (max-width: 991.98px) {
+        background: $color-black;
+        z-index: 2;
+
+        position: absolute;
+        top: 6rem;
+        left: 1rem;
+        width: 97%; 
+        padding: 1rem;     
+    }
+
+    @media (max-width: 767.98px) {
+        background: $color-black;
+        z-index: 2;
+
+        position: absolute;
+        top: 6rem;
+        left: 1rem;
+        width: 95%;
+        padding: 1rem;        
+    }
+}
+
+.navbar-nav {
+    @media (max-width: 991.98px) {
+        align-items: flex-end;
+    }
+
+    @media (max-width: 767.98px) {
+        align-items: flex-end; 
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {  
+    margin: 0 1rem; 
+    
+    @media (max-width: 1199.98px) {
+        margin: 0 .5rem; 
+    }   
+}
+
+.dropdown {
+
+    @media (max-width: 767.98px) {     
+        text-align: right; 
+        width: 100%;       
+    }        
+}
+
+.dropdown-menu {  
+    background: $color-black;
+    left: -56px;
+
+    @media (max-width: 991.98px) { 
+        left: -56px;
+    }    
+
+    @media (max-width: 767.98px) {
+        text-align: right;
+    }    
+}
+
+.dropdown-item {
+    background: $color-black;  
+    color: $color-white;
+
+    &:active,     
+    &:hover { 
+        background: $color-black-icons;  
+        color: $color-white;
+    }
+
+    @media (max-width: 767.98px) {
+        font-size: 1.4rem !important;
+        padding: 0; 
+    }       
+} 
+
+.contact-item > .nav-link {
+    border: 2px solid $color-white;
+    padding: .8rem 1rem !important; 
+
+    &:active,
+    &:hover {
+        background: $color-white;
+        color: $color-black !important;
+    }
+}
+
+.col {
+    margin: 3rem 0;  
+    text-align: center;
+
+    & > p {
+        margin-bottom: 2.8rem;   
+    }    
+}
+
+.col > img {
+    width: 100%;   
+}
+
+.gallery-col {
+    align-self: center; 
+}
+
+.section {
+
+    &--engagement-banner {
+        background: $color-dark-grey center / cover no-repeat url("../img/banners/bucks-wedding-photographer-eng-rings.jpg"); 
+        text-align: center; 
+    }
+
+    &--get-in-touch-banner {
+        background: $color-dark-grey center / cover no-repeat url("../img/banners/bucksengagementphotography-3.jpg");
+        text-align: center;
+    }
+
+    &--testimonials {
+        background: $color-dark-grey;
+        height: 36rem; 
+        padding: 7rem 0;
+
+        @media (max-width: 767.98px) {
+            height: auto;  
+        }     
+    }
+
+    &--social {
+        background: $color-dark-grey;   
+    }
+}
+
+.carousel-control {
+    background: rgba($color-black-overlay, .3);
+}
+
+.testimonial {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.opaque-background {
+    background: rgba($color-black-overlay, .5);  
+    height: 100%;
+}
+
+.form {
+    margin: 3rem 0;
+}
+
+.form-group {
+    padding-bottom: 2rem;
+}
+
+.form-control {
+    background: #fafafa; 
+    height: calc(3.25rem + 2px);
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;  
+    margin-bottom: 0;
+    padding: 3rem 0;
+}
+
+.footer {
+    background: $color-black; 
+    padding: 6rem 0;
+}
+
+.footer-list {
+    
+    &__item {
+        margin-bottom: 2rem; 
+    }
+}

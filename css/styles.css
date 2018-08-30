@@ -1,0 +1,337 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.header--banner {
+  height: 56vh; }
+  @media (max-width: 767.98px) {
+    .header--banner {
+      height: 30vh; } }
+
+.header--plain {
+  background: #201a16;
+  height: 15vh; }
+
+.header--home {
+  background: #201a16 center/cover no-repeat url("../img/banners/gcbrideandgroom.jpg"); }
+
+.header--weddings {
+  background: #201a16 center/cover no-repeat url("../img/banners/berkshire_wedding_photographer_GJ_Full.jpg"); }
+
+.header--choose-photographer {
+  background: #201a16 center/cover no-repeat url("../img/banners/buckinghamhire-wedding-photography-ll-table.jpg"); }
+
+.header--bucks-wedding-photography {
+  background: #201a16 center/cover no-repeat url("../img/banners/berkshire_wedding_photographer_GJ_Full.jpg"); }
+
+.logo-img {
+  width: 100%; }
+
+.navbar {
+  background: none !important; }
+
+.navbar-brand {
+  width: 30%; }
+  @media (max-width: 767.98px) {
+    .navbar-brand {
+      width: 50%; } }
+
+.navbar-dark .navbar-toggler {
+  border-color: #ffffff;
+  color: #ffffff;
+  font-size: 1.65rem; }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+.navbar-collapse {
+  flex-basis: 100% !important;
+  justify-content: flex-end; }
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      background: #000000;
+      z-index: 2;
+      position: absolute;
+      top: 6rem;
+      left: 1rem;
+      width: 97%;
+      padding: 1rem; } }
+  @media (max-width: 767.98px) {
+    .navbar-collapse {
+      background: #000000;
+      z-index: 2;
+      position: absolute;
+      top: 6rem;
+      left: 1rem;
+      width: 95%;
+      padding: 1rem; } }
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    align-items: flex-end; } }
+
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    align-items: flex-end; } }
+
+.navbar-dark .navbar-nav .nav-link {
+  margin: 0 1rem; }
+  @media (max-width: 1199.98px) {
+    .navbar-dark .navbar-nav .nav-link {
+      margin: 0 .5rem; } }
+
+@media (max-width: 767.98px) {
+  .dropdown {
+    text-align: right;
+    width: 100%; } }
+
+.dropdown-menu {
+  background: #000000;
+  left: -56px; }
+  @media (max-width: 991.98px) {
+    .dropdown-menu {
+      left: -56px; } }
+  @media (max-width: 767.98px) {
+    .dropdown-menu {
+      text-align: right; } }
+
+.dropdown-item {
+  background: #000000;
+  color: #ffffff; }
+  .dropdown-item:active, .dropdown-item:hover {
+    background: #222222;
+    color: #ffffff; }
+  @media (max-width: 767.98px) {
+    .dropdown-item {
+      font-size: 1.4rem !important;
+      padding: 0; } }
+
+.contact-item > .nav-link {
+  border: 2px solid #ffffff;
+  padding: .8rem 1rem !important; }
+  .contact-item > .nav-link:active, .contact-item > .nav-link:hover {
+    background: #ffffff;
+    color: #000000 !important; }
+
+.col {
+  margin: 3rem 0;
+  text-align: center; }
+  .col > p {
+    margin-bottom: 2.8rem; }
+
+.col > img {
+  width: 100%; }
+
+.gallery-col {
+  align-self: center; }
+
+.section--engagement-banner {
+  background: #d6d6d6 center/cover no-repeat url("../img/banners/bucks-wedding-photographer-eng-rings.jpg");
+  text-align: center; }
+
+.section--get-in-touch-banner {
+  background: #d6d6d6 center/cover no-repeat url("../img/banners/bucksengagementphotography-3.jpg");
+  text-align: center; }
+
+.section--testimonials {
+  background: #d6d6d6;
+  height: 36rem;
+  padding: 7rem 0; }
+  @media (max-width: 767.98px) {
+    .section--testimonials {
+      height: auto; } }
+
+.section--social {
+  background: #d6d6d6; }
+
+.carousel-control {
+  background: rgba(46, 46, 46, 0.3); }
+
+.testimonial {
+  margin: 0 auto;
+  width: 80%; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.opaque-background {
+  background: rgba(46, 46, 46, 0.5);
+  height: 100%; }
+
+.form {
+  margin: 3rem 0; }
+
+.form-group {
+  padding-bottom: 2rem; }
+
+.form-control {
+  background: #fafafa;
+  height: calc(3.25rem + 2px); }
+
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 3rem 0; }
+
+.footer {
+  background: #000000;
+  padding: 6rem 0; }
+
+.footer-list__item {
+  margin-bottom: 2rem; }
+
+body {
+  color: #4a4a4a;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem;
+  font-weight: 300; }
+
+h1, h2, h3 {
+  font-weight: 300; }
+
+.main-heading {
+  font-weight: 300;
+  letter-spacing: .3rem; }
+  .main-heading--header {
+    color: #ffffff;
+    font-size: 7.5rem;
+    margin-top: 13rem; }
+    @media (max-width: 767.98px) {
+      .main-heading--header {
+        font-size: 4.5rem;
+        margin-top: 3rem; } }
+  .main-heading--content {
+    font-size: 3.2rem; }
+  .main-heading > small {
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 300; }
+    @media (max-width: 767.98px) {
+      .main-heading > small {
+        font-size: 2rem; } }
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
+  margin-bottom: 2rem; }
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin: 3rem 0 2.2rem; }
+
+h1 {
+  text-align: center; }
+
+.navbar-nav {
+  font-size: 1.4rem; }
+
+.navbar-nav .nav-link:link, .navbar-nav .nav-link:visited {
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:active {
+  color: #d6d6d6; }
+
+.dropdown-item {
+  font-size: 1.5rem; }
+
+.banner-heading {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 2.8rem;
+  letter-spacing: 0.6rem;
+  margin: 20rem 0;
+  text-transform: uppercase; }
+  @media (max-width: 767.98px) {
+    .banner-heading {
+      margin: 5rem 0; } }
+
+.form-control {
+  font-size: 1.5rem; }
+
+.social-list__icon {
+  background: #222222;
+  border-radius: 1.7rem;
+  height: 3.2rem;
+  line-height: 3.1rem;
+  margin: 0 0.4rem;
+  text-align: center;
+  width: 3.2rem; }
+
+.social-list__icon:hover {
+  background: rgba(34, 34, 34, 0.5); }
+
+.social-list__link:link, .social-list__link:visited {
+  color: #d6d6d6;
+  font-size: 1.7rem; }
+
+.button-container {
+  text-align: center; }
+
+.footer {
+  color: #ffffff;
+  text-align: center; }
+
+.footer-list__link:link, .footer-list__link:visited {
+  color: #ffffff; }
+
+.centered {
+  text-align: center; }
+
+.small-padding {
+  padding: 3rem 0; }
+  @media (max-width: 767.98px) {
+    .small-padding {
+      padding-top: 1.5rem; } }
+
+.medium-padding {
+  padding: 6rem 0 3rem; }
+  @media (max-width: 767.98px) {
+    .medium-padding {
+      padding-top: 2rem; } }
+
+.large-padding {
+  padding: 10rem 0 3rem; }
+  @media (max-width: 767.98px) {
+    .large-padding {
+      padding-top: 3rem; } }
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase; }
+  .button--white {
+    background: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding: 2rem 3.5rem; }
+    .button--white:hover {
+      background: #000000;
+      color: #ffffff;
+      text-decoration: none; }
+  .button--black {
+    background: #000000;
+    border: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    padding: 1.3rem 3.2rem; }
+    .button--black:hover {
+      background: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      text-decoration: none; }

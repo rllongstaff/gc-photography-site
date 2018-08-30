@@ -1,0 +1,137 @@
+body {
+    color: $color-black-text;
+    //font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem; 
+    letter-spacing: 0.05rem;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+.main-heading {
+    font-weight: 300; 
+    letter-spacing: .3rem;    
+
+    &--header {
+        color: $color-white;
+        font-size: 7.5rem; 
+        margin-top: 13rem;   
+        
+        @media (max-width: 767.98px) { 
+            font-size: 4.5rem;  
+            margin-top: 3rem;  
+        }        
+    }
+
+    &--content {
+        font-size: 3.2rem; 
+    }
+
+    & > small {
+        display: block;
+        font-size: 2.8rem;
+        font-weight: 300;
+
+        @media (max-width: 767.98px) {
+            font-size: 2rem;
+        }
+    }
+}
+
+h2 {
+    font-size: 2.5rem;  
+    letter-spacing: .3rem;
+    margin-bottom: 2rem;   
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin: 3rem 0 2.2rem; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar-nav {
+    font-size: 1.4rem;
+}
+
+.navbar-nav .nav-link {
+
+    &:link,
+    &:visited {
+        color: $color-white;
+        text-transform: uppercase; 
+    }
+
+    &:hover,
+    &:active {
+        color: $color-dark-grey;
+    }
+}
+
+.dropdown-item {
+    font-size: 1.5rem;
+}
+
+.banner-heading {
+    color: $color-white; 
+    display: inline-block;
+    font-size: 2.8rem;
+    letter-spacing: 0.6rem; 
+    margin: 20rem 0;
+    text-transform: uppercase; 
+
+    @media (max-width: 767.98px) {
+        margin: 5rem 0;
+    }     
+}
+
+.form-control {
+    font-size: 1.5rem;
+}
+
+.social-list {
+
+    &__icon {
+        background: $color-black-icons; 
+        border-radius: 1.7rem; 
+        height: 3.2rem; 
+        line-height: 3.1rem;
+        margin: 0 0.4rem;
+        text-align: center;
+        width: 3.2rem;
+    }
+
+    &__icon:hover {
+        background: rgba($color-black-icons, .5);
+    }
+
+    &__link:link,
+    &__link:visited {
+        color: $color-dark-grey; 
+        font-size: 1.7rem; 
+    }  
+}
+
+.button-container {
+    text-align: center; 
+}
+
+.footer {
+    color: $color-white; 
+    text-align: center;
+}
+
+.footer-list {
+
+    &__link:link,  
+    &__link:visited {
+        color: $color-white; 
+    }
+}
