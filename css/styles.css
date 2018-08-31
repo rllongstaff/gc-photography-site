@@ -210,8 +210,8 @@ h1, h2, h3 {
     margin-top: 13rem; }
     @media (max-width: 767.98px) {
       .main-heading--header {
-        font-size: 4.5rem;
-        margin-top: 3rem; } }
+        font-size: 3.5rem;
+        margin-top: 1rem; } }
   .main-heading--content {
     font-size: 3.2rem; }
   .main-heading > small {

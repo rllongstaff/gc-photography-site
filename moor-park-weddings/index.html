@@ -44,16 +44,11 @@
                             Information
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/buckinghamshire-wedding-photographer-gregory-cusick/">About</a>
-                            <a class="dropdown-item" href="/choosing-a-buckinghamshire-wedding-photographer/">Choosing a Buckinghamshire Wedding Photographer</a>
-                            <a class="dropdown-item" href="/buckinghamshire-wedding-photography/">Buckinghamshire Wedding Photography</a>
+                                <a class="dropdown-item" href="/buckinghamshire-wedding-photographer-gregory-cusick/">About</a>
+                                <a class="dropdown-item" href="/choosing-a-buckinghamshire-wedding-photographer/">Choosing a Buckinghamshire Wedding Photographer</a>
+                                <a class="dropdown-item" href="/buckinghamshire-wedding-photography/">Buckinghamshire Wedding Photography</a>
                             </div>
                         </li>
-                        <!--
-                        <li class="nav-item">
-                            <a class="nav-link" href="/testimonials/">Testimonials</a>
-                        </li>  
-                        --> 
                         <li class="nav-item">
                             <a class="nav-link" href="/wedding-suppliers/">Suppliers</a>
                         </li>  
