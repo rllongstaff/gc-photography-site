@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
-    <title>Photo Site</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <meta name="description" content="Buckinghamshire wedding photographer and family photography by Gregory Cusick. Covering Bucks, Berkshire, Herts in the UK. See our magical wedding photography gallery, and arrange a meeting today."> 
+    <title>Buckinghamshire wedding photographer - Gregory Cusick Photography</title>
     <!--<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">

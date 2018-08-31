@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Photo Site</title>
+    <meta name="description" content="Family Photographer - Bucks - Berks - Herts and the UK.">
+    <title>Family Photographer - Bucks - Berks - Herts and the UK</title>
     <!--<link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">-->
     <!--<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
